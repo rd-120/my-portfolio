@@ -1,0 +1,32 @@
+.contact {
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  border-radius: 50px;
+  padding: 2rem 0 4rem 0;
+}
+
+.cont-title {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.social {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.social:hover {
+  color: #f8d90f;
+}
+
+.cont-container {
+  max-width: 1140px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}

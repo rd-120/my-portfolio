@@ -1,0 +1,81 @@
+.about {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 3rem 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about p {
+  text-align: justify;
+  width: 65%;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.about h1 {
+  padding: 4rem 0 1rem 0;
+  text-transform: uppercase;
+}
+
+/* 
+=======
+skills
+=======
+ */
+
+.skills {
+  text-align: center;
+  color: #fff;
+}
+
+.skills-title {
+  text-transform: capitalize;
+  padding: 1rem 0 1rem 0;
+}
+
+.logo-icon {
+  display: flex;
+  justify-content: space-around;
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.html5 {
+  fill: #f67b46;
+}
+
+.css3 {
+  fill: #2965f1;
+}
+
+.js {
+  fill: #f0db4f;
+}
+
+.node {
+  fill: #689f63;
+}
+
+.mongo {
+  fill: #4db33d;
+}
+
+.sql {
+  fill: #00758f;
+}
+
+.react {
+  fill: #61dbfb;
+}
+
+.jquery {
+  fill: #0868ac;
+}
+
+.bootstrap {
+  fill: #602c50;
+}

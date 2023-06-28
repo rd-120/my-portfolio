@@ -1,0 +1,56 @@
+.project-heading {
+  text-align: center;
+  padding: 4rem 0 1rem 0;
+  text-transform: uppercase;
+}
+
+.pro-container {
+  max-width: 1140px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}
+
+.project-card {
+  background: rgb(18, 18, 18);
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 1.2rem 1rem;
+  position: relative;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-title {
+  color: #fff;
+  padding: 1rem 0;
+  text-transform: capitalize;
+}
+
+.pro-details p {
+  padding-bottom: 5rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.pro-btn {
+  padding: 0.5rem 0;
+  position: absolute;
+  bottom: 5%;
+}
+/* 
+.pro-btn .btn {
+  padding: 0.5rem 1rem;
+} */
+
+@media screen and (max-width: 768px) {
+  .pro-container {
+    max-width: 90%;
+    grid-template-columns: 1fr;
+  }
+}
