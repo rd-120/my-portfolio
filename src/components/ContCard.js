@@ -24,7 +24,12 @@ const ContCard = () => {
 
           <div className="project-card contact">
             <h2 className="cont-title">linkedIn</h2>
-            <FaLinkedin className="social" />
+            <Link
+              to="https://www.linkedin.com/in/rivka-desta-759a01224/"
+              target="_blank"
+            >
+              <FaLinkedin className="social" />
+            </Link>
           </div>
 
           <div className="project-card contact">

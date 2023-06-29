@@ -8,7 +8,10 @@ function Footer() {
     <footer>
       <div className="container">
         <div className="social-links">
-          <Link to="https://wa.me/0524812556" target="_blank">
+          <Link
+            to="https://www.linkedin.com/in/rivka-desta-759a01224/"
+            target="_blank"
+          >
             <FaLinkedin />
           </Link>
           <Link to="https://wa.me/0524812556" target="_blank">
