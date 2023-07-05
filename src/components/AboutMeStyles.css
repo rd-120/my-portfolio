@@ -79,3 +79,9 @@ skills
 .bootstrap {
   fill: #602c50;
 }
+
+@media screen and (max-width: 768px) {
+  .about p {
+    width: 100%;
+  }
+}
